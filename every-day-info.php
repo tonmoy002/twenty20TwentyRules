@@ -78,7 +78,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <body class="bg-light">
 <div class="container">
     <div class="py-2 text-center">
-        <h2>20-20-20 rules</h2>
+        <h2>20-20-20 Rules</h2>
         <p class="lead"></p>
     </div>
 
@@ -218,7 +218,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </div>
 
     <footer class="my-5 pt-5 text-muted text-center text-small">
-        <p class="mb-1">&copy; 2020- 20-20-20 rules</p>
+        <p class="mb-1">&copy; 2020- 20-20-20 Rules</p>
         <ul class="list-inline">
             <li class="list-inline-item"><a href="javascript:void(0);">Privacy</a></li>
             <li class="list-inline-item"><a href="javascript:void(0);">Terms</a></li>
