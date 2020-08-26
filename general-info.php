@@ -123,7 +123,7 @@
                         if($dataInfo['profession']== 'Scientists' || $dataInfo['profession']== 'Researchers' ||$dataInfo['profession']== 'Teachers' ||$dataInfo['profession']== 'Students' ||$dataInfo['profession']== 'Executives' || $dataInfo['profession']== 'Bankers' || $dataInfo['profession']== '' ) echo 'd-none'
                     ?>">
                         <div class="mb-10">
-                            <label for="eye-problem">Other profession <span class="text-muted"></span></label>
+                            <label for="other-profession">Other profession <span class="text-muted"></span></label>
                             <input class="form-control" type="text" value="<?php echo $dataInfo['profession'] ?>" id="other-profession" name="other-profession">
                         </div>
                     </div>
@@ -218,6 +218,8 @@
 
             $('.profession-other').removeClass('d-none');
             $('#other-profession').attr('required','required');
+            $('#other-profession').val('');
+
 
         }else{
 
