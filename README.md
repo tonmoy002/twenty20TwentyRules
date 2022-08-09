@@ -1,3 +1,9 @@
+# 20 20 20 rules 
+This system will check you are infront of computer and 
+inform you to look 16 meters away for 20 seconds.
+
+
+
 # IMPORTANT: Bug Fixes
 
 ## `navigator.getUserMedia`
